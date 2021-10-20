@@ -1,7 +1,7 @@
 # IU-Library
 
 
-##Works commands <br>
+## Works commands
 
   <b>$ </b>= document.querySelectorAll(selector);<br>
 
@@ -18,7 +18,7 @@
   Exapmle:
    ``` $('.active').off('click', sayHello);
     function sayHello() {
-    console.log('hello');``` <br>
+    console.log('hello');```
 <b> .off('eventName', function) </b>= offEventListener in selector<br>
 <b> .click(function) </b>= addEventListener in selector<br>
 
