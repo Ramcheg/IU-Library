@@ -18,7 +18,7 @@
   Exapmle:
    ``` $('.active').off('click', sayHello);
     function sayHello() {
-    console.log('hello');```
+    console.log('hello'); ```
 <b> .off('eventName', function) </b>= offEventListener in selector<br>
 <b> .click(function) </b>= addEventListener in selector<br>
 
