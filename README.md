@@ -3,9 +3,9 @@
 
 <h2>Works commands</h2>
 
-  <b>$ </b>= document.querySelectorAll(selector);
+  <b>$ </b>= document.querySelectorAll(selector);<br>
   
-  <b> .show() </b>=  <b>show</b> selector 
-  <b> .hide() </b>= <b>hide</b> selector 
-  <b> .toggle() </b>= if <b>hide</b> then <b>show</b> or if <>show<> then <b>hide</b>
+  <b> .show() </b>=  <b>show</b> selector <br>
+  <b> .hide() </b>= <b>hide</b> selector <br>
+  <b> .toggle() </b>= if <b>hide</b> then <b>show</b> or if <>show<> then <b>hide</b><br>
   
