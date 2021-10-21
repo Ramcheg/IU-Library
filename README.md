@@ -17,7 +17,7 @@
   <b> on('eventName', function) </b>= addEventListener in selector<br>
   Exapmle:
   ```
-  $('.active').off('click', sayHello);
+  $('.active').on('click', sayHello);
     function sayHello() {
     console.log('hello');
   ```
@@ -33,6 +33,11 @@
 <b>.find(selector)</b>  - Finds among all the selected items using a specific selector (Находит среди всех выбранных элементов с помощью определенного селектора) <br>
 <b>.closest(selector)</b> - Determining the closest block by a given selector (Определение ближайшего блока по заданному селектору) <br>
 <b>.siblings()</b> - By referring to all adjacent elements except the element itself (Ссылаясь на все смежные элементы, кроме самого элемента) <br>
+
+### Effects
+
+<b>.fadeIn(time)</b> - animation <b>show</b> element <br>
+<b>.fadeOut(time)</b>  - animation <b>hide</b> element <br>
 
 
 

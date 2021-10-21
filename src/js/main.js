@@ -17,4 +17,5 @@ import './lib/lib';
 
 // console.log($('div').eq(2).find('.some'));
 // console.log($('.some').closest('.findmer'));
-console.log($('.more').eq(0).siblings());
+// console.log($('.more').eq(0).siblings());
+$('.findme').fadeOut(18000);
