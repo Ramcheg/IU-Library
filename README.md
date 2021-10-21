@@ -16,7 +16,8 @@
   ### EventListener
   <b> on('eventName', function) </b>= addEventListener in selector<br>
   Exapmle:
-  ``` $('.active').off('click', sayHello);
+  ```
+  $('.active').off('click', sayHello);
     function sayHello() {
     console.log('hello');
   ```
@@ -27,12 +28,11 @@
 
 ### Search
 
-<b>.eq(number)</b>  - Getting a specific button
-<b>.index(selector)</b>  - Element number in order among all neighbors of the common parent (Номер элемента по порядку среди всех соседей общего родителя)
-<b>.find(selector)</b>  - Finds among all the selected items using a specific selector (Находит среди всех выбранных элементов с помощью определенного селектора)
-<b>.closest(selector)</b> - Determining the closest block by a given selector (Определение ближайшего блока по заданному селектору)
-<b>.siblings()</b> - By referring to all adjacent elements except the element itself
-  (Ссылаясь на все смежные элементы, кроме самого элемента)
+<b>.eq(number)</b>  - Getting a specific button <br>
+<b>.index(selector)</b>  - Element number in order among all neighbors of the common parent (Номер элемента по порядку среди всех соседей общего родителя) <br>
+<b>.find(selector)</b>  - Finds among all the selected items using a specific selector (Находит среди всех выбранных элементов с помощью определенного селектора) <br>
+<b>.closest(selector)</b> - Determining the closest block by a given selector (Определение ближайшего блока по заданному селектору) <br>
+<b>.siblings()</b> - By referring to all adjacent elements except the element itself (Ссылаясь на все смежные элементы, кроме самого элемента) <br>
 
 
 
