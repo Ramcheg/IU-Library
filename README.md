@@ -45,20 +45,20 @@ _______
 
 #### Buttons
 
-  >container - 1140px
+  >container - 1140px <br>
 
-  > btn   - classic btn
-    >> btn-primary
-    >> btn-success
-    >> btn-danger
-    >> btn-warning
-    >> btn-dark
-    >> btn-outline-primary
-    >> btn-outline-success
-    >> btn-outline-danger
-    >> btn-outline-warning
-    >> btn-outline-dark
-    >> btn-block *- display: block*
+  > btn   - classic btn <br>
+  >> btn-primary  <br>
+  >> btn-success  <br>
+  >> btn-danger <br>
+  >> btn-warning  <br>
+  >> btn-dark <br>
+  >> btn-outline-primary  <br>
+  >> btn-outline-success  <br>
+  >> btn-outline-danger <br>
+  >> btn-outline-warning  <br>
+  >> btn-outline-dark <br>
+  >> btn-block *- display: block* <br>
 
 
 #### Display
