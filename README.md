@@ -63,26 +63,26 @@ _______
 
 #### Display
 
-  >hidden  *- (visibility)*
-  >visible
-  >d-none   *- (display)*
-  >d-block
-  >d-flex
-  >f-centered  *- (flex)*
-  >f-space-around
-  >f-space-between
+  >hidden  *- (visibility)* <br>
+  >visible  <br>
+  >d-none   *- (display)* <br>
+  >d-block  <br>
+  >d-flex <br>
+  >f-centered  *- (flex)* <br>
+  >f-space-around <br>
+  >f-space-between  <br>
 
 #### Text
-  > text-center
-  > block-center
+  > text-center <br>
+  > block-center <br>
 
 #### Font
-  > fz-16
-  > fz-20   *- (font-size)*
-  > fz-24
-  > bold
-  > thin
-  > italic
+  > fz-16 <br>
+  > fz-20   *- (font-size)* <br>
+  > fz-24 <br>
+  > bold  <br>
+  > thin  <br>
+  > italic  <br>
 
 ##### Color
   >text-color-primary <br>
@@ -92,36 +92,36 @@ _______
   >text-color-dark  <br>
 
 #### Margin (px)
-  >m10
-  >m20
-  >mt-10
-  >mb-10
-  >mr-10
-  >ml-10
-  >mt-20
-  >mb-20
-  >mr-20
-  >ml-20
+  >m10  <br>
+  >m20  <br>
+  >mt-10  <br>
+  >mb-10  <br>
+  >mr-10  <br>
+  >ml-10  <br>
+  >mt-20  <br>
+  >mb-20  <br>
+  >mr-20  <br>
+  >ml-20  <br>
 
 #### Padding (px)
 
-  >p10
-  >p20
-  >pt-10
-  >pb-10
-  >pr-10
-  >pl-10
-  >pt-20
-  >pb-20
-  >pr-20
-  >pl-20
+  >p10  <br>
+  >p20  <br>
+  >pt-10  <br>
+  >pb-10  <br>
+  >pr-10  <br>
+  >pl-10  <br>
+  >pt-20  <br>
+  >pb-20  <br>
+  >pr-20  <br>
+  >pl-20  <br>
 
 #### Sizes  (w - width || h - height)
-  >w-50   *- (%)*
-  >w-100  *- (%)*
-  >h-50   *- (%)*
-  >h-100  *- (%)*
-  >w-300  *- (px)*
-  >w-500  *- (px)*
-  >h-300  *- (px)*
-  >h-500  *- (px)*
+  >w-50   *- (%)* <br>
+  >w-100  *- (%)* <br>
+  >h-50   *- (%)* <br>
+  >h-100  *- (%)* <br>
+  >w-300  *- (px)*  <br>
+  >w-500  *- (px)*  <br>
+  >h-300  *- (px)*  <br>
+  >h-500  *- (px)*  <br>
