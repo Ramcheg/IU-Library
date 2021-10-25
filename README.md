@@ -45,9 +45,9 @@ _______
 
 #### Buttons
 
-    >container - 1140px
+  >container - 1140px
 
-    > btn   - classic btn
+  > btn   - classic btn
     >> btn-primary
     >> btn-success
     >> btn-danger
@@ -85,11 +85,11 @@ _______
   > italic
 
 ##### Color
-  >text-color-primary
-  >text-color-danger
-  >text-color-success
-  >text-color-warning
-  >text-color-dark
+  >text-color-primary <br>
+  >text-color-danger  <br>
+  >text-color-success <br>
+  >text-color-warning <br>
+  >text-color-dark  <br>
 
 #### Margin (px)
   >m10
