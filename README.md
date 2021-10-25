@@ -39,6 +39,89 @@
 <b>.fadeIn(time)</b> - animation <b>show</b> element <br>
 <b>.fadeOut(time)</b>  - animation <b>hide</b> element <br>
 
+_______
+
+### CSS styles
+
+#### Buttons
+
+    >container - 1140px
+
+    > btn   - classic btn
+    >> btn-primary
+    >> btn-success
+    >> btn-danger
+    >> btn-warning
+    >> btn-dark
+    >> btn-outline-primary
+    >> btn-outline-success
+    >> btn-outline-danger
+    >> btn-outline-warning
+    >> btn-outline-dark
+    >> btn-block *- display: block*
 
 
+#### Display
 
+  >hidden  *- (visibility)*
+  >visible
+  >d-none   *- (display)*
+  >d-block
+  >d-flex
+  >f-centered  *- (flex)*
+  >f-space-around
+  >f-space-between
+
+#### Text
+  > text-center
+  > block-center
+
+#### Font
+  > fz-16
+  > fz-20   *- (font-size)*
+  > fz-24
+  > bold
+  > thin
+  > italic
+
+##### Color
+  >text-color-primary
+  >text-color-danger
+  >text-color-success
+  >text-color-warning
+  >text-color-dark
+
+#### Margin (px)
+  >m10
+  >m20
+  >mt-10
+  >mb-10
+  >mr-10
+  >ml-10
+  >mt-20
+  >mb-20
+  >mr-20
+  >ml-20
+
+#### Padding (px)
+
+  >p10
+  >p20
+  >pt-10
+  >pb-10
+  >pr-10
+  >pl-10
+  >pt-20
+  >pb-20
+  >pr-20
+  >pl-20
+
+#### Sizes  (w - width || h - height)
+  >w-50   *- (%)*
+  >w-100  *- (%)*
+  >h-50   *- (%)*
+  >h-100  *- (%)*
+  >w-300  *- (px)*
+  >w-500  *- (px)*
+  >h-300  *- (px)*
+  >h-500  *- (px)*
