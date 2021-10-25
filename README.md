@@ -38,16 +38,18 @@
 
 <b>.fadeIn(time)</b> - animation <b>show</b> element <br>
 <b>.fadeOut(time)</b>  - animation <b>hide</b> element <br>
+<b>.fadeToggle(time)</b>  - animation <b>hide</b> or <b>show</b> element <br>
 
 _______
 
 ### CSS styles
 
 #### Buttons
+##### Components btn
+  >container *- 1140px* <br>
 
-  >container - 1140px <br>
+  > btn   *- classic btn* <br>
 
-  > btn   - classic btn <br>
   >> btn-primary  <br>
   >> btn-success  <br>
   >> btn-danger <br>
@@ -125,3 +127,40 @@ _______
   >w-500  *- (px)*  <br>
   >h-300  *- (px)*  <br>
   >h-500  *- (px)*  <br>
+
+### Components
+
+#### Dropdown
+
+*Exapmle* <br>
+html <br>
+<b>Required:</b><br>
+id="dropdownMenuButton" and <br>
+data-toggle-id="dropdownMenuButton" <br>
+```
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">Dropdown button</button>
+    <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
+        <a href="#" class="dropdown-item">Action</a>
+        <a href="#" class="dropdown-item">Action #2</a>
+        <a href="#" class="dropdown-item">Action #3</a>
+    </div>
+</div>
+```
+*Exapmle* for Server <br>
+where <b>$('.wrap').html(...)</b> Server <br>
+```
+$('.wrap').html(
+    `
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">Dropdown button</button>
+        <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
+            <a href="#" class="dropdown-item">Action</a>
+            <a href="#" class="dropdown-item">Action #2</a>
+            <a href="#" class="dropdown-item">Action #3</a>
+        </div>
+    </div>
+`
+);
+$('.dropdown-toggle').dropdown();
+```
