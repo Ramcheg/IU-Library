@@ -189,14 +189,29 @@ $('.dropdown-toggle').dropdown();
 <b>Calling modal:  [data-toggle="modal"]</b><br>
 <b>Target modal:  [data-target="#exempleModal"]</b><br>
 ```
-<div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">Dropdown button</button>
-    <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
-        <a href="#" class="dropdown-item">Action</a>
-        <a href="#" class="dropdown-item">Action #2</a>
-        <a href="#" class="dropdown-item">Action #3</a>
-    </div>
-</div>
+ <div class="modal" id="exempleModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button class="close" data-close>
+                        <span>&times;</span>
+                    </button>
+                    <div class="modal-header">
+                        <div class="modal-title">
+                            Modal title
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, enim natus aliquid modi ipsam
+                        cumque dolor aspernatur iure consequatur molestias expedita magni tempore consectetur rerum
+                        debitis harum unde excepturi ducimus?
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-close>Close</button>
+                        <button class="btn btn-success">Save chenges</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 ```
 
 
