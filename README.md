@@ -262,4 +262,35 @@ $('#trigger').click(() => $('#trigger').createModal({
 
 ```
 
+#### Tab
+
+*Exapmle* (html) <br>
+```
+   <div class="tab mt-20 block-center">
+            <div class="tab-panel" data-tabpanel>
+                <div class="tab-item tab-item--active">Content 1</div>
+                <div class="tab-item">Content 2</div>
+                <div class="tab-item">Content 3</div>
+            </div>
+        </div>
+        <div class="tab-content tab-content--active">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id optio non delectus voluptate deleniti
+            tempora soluta deserunt qui omnis quae dignissimos eum ab quibusdam quas harum, aspernatur iusto error!
+            <br><br>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi architecto voluptatibus dolor unde
+            accusantium nihil fugit, neque, temporibus, omnis et repellat non eveniet vero totam tenetur possimus
+            nam? Libero, neque.
+        </div>
+        <div class="tab-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id optio non delectus voluptate deleniti
+            tempora soluta deserunt qui omnis quae dignissimos eum ab quibusdam quas harum, aspernatur iusto error!
+            <br><br>
+            Lorem ipsum
+        </div>
+        <div class="tab-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id optio non delectus voluptate deleniti
+            tempora soluta deserunt qui omnis quae dignissimos eum ab quibusdam quas harum, aspernatur iusto error!
+        </div>
+```
+
 

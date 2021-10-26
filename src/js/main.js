@@ -46,7 +46,7 @@ $('.wrap').html(
     </div>
 `
 );
-$('.dropdown-toggle').dropdown();
+// $('.dropdown-toggle').dropdown();
 
 $('#trigger').click(() => $('#trigger').createModal({
     text: {
