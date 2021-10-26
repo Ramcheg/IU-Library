@@ -128,15 +128,15 @@ _______
   >h-300  *- (px)*  <br>
   >h-500  *- (px)*  <br>
 
+
+_______
 ### Components
 
 #### Dropdown
 
-*Exapmle* <br>
-html <br>
+*Exapmle* (html) <br>
 <b>Required:</b><br>
-id="dropdownMenuButton" and <br>
-data-toggle-id="dropdownMenuButton" <br>
+(id="dropdownMenuButton") and (data-toggle-id="dropdownMenuButton") <br>
 ```
 <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">Dropdown button</button>
@@ -148,7 +148,7 @@ data-toggle-id="dropdownMenuButton" <br>
 </div>
 ```
 *Exapmle* for Server <br>
-where <b>$('.wrap').html(...)</b> Server <br>
+where <b>$('.wrap').html(...)</b> - Server <br>
 ```
 $('.wrap').html(
     `
@@ -164,3 +164,39 @@ $('.wrap').html(
 );
 $('.dropdown-toggle').dropdown();
 ```
+
+
+#### Card
+
+*Exapmle* (html) <br>
+```
+<div class="card">
+    <img class="card-img"
+        src="https://images.pexels.com/photos/556666/pexels-photo-556666.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        alt="photo">
+    <div class="card-body">
+        <div class="card-title">Card title #2</div>
+        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem labore quo alias!Amet,corrupti nihil nobis beatae illo maxime vitae dolores magni commodi, repellendus eaque odit esseiste veniam architecto?</p>
+        <a class="btn btn-primary" data-toggle="modal" data-target="#exempleModal" href="#" >Link to</a>
+    </div>
+</div>
+```
+
+
+#### Modal
+
+*Exapmle* (html) <br>
+<b>Calling modal:  [data-toggle="modal"]</b><br>
+<b>Target modal:  [data-target="#exempleModal"]</b><br>
+```
+<div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" id="dropdownMenuButton">Dropdown button</button>
+    <div class="dropdown-menu" data-toggle-id="dropdownMenuButton">
+        <a href="#" class="dropdown-item">Action</a>
+        <a href="#" class="dropdown-item">Action #2</a>
+        <a href="#" class="dropdown-item">Action #3</a>
+    </div>
+</div>
+```
+
+
