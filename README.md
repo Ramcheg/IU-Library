@@ -214,4 +214,52 @@ $('.dropdown-toggle').dropdown();
         </div>
 ```
 
+#### Dinamic Modal JS
+
+*Exapmle* (JS) <br>
+```
+.createModal({
+  text: {
+
+  }
+})
+
+```
+
+```
+$('#trigger').click(() => $('#trigger').createModal({
+    text: {
+        title: 'Modal title',
+        body: 'Lorem  Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem '
+    },
+    btns: {
+        count: 3  (кол-во конопок),
+        settings: [
+            [
+                'Close',      (название )
+                ['btn-danger', 'mr-10'],    (навешивание тегов)
+                true          (закрывает окно или нет)
+            ],
+            [
+                'Save changes',
+                ['btn-success'],
+                false,
+                () => {               (колбек функция для кнопки)
+                    alert('Data save');
+                }
+            ],
+            [
+                'Another btn',
+                ['btn-warning', 'ml-10'],
+                false,
+                () => {
+                    alert('alert');
+                }
+            ]
+        ]
+    }
+}));
+
+```
+
 
