@@ -34,6 +34,18 @@
 <b>.closest(selector)</b> - Determining the closest block by a given selector (Определение ближайшего блока по заданному селектору) <br>
 <b>.siblings()</b> - By referring to all adjacent elements except the element itself (Ссылаясь на все смежные элементы, кроме самого элемента) <br>
 
+
+### GET and POST request
+    $().get(...);
+
+    .get(url, dataTypeAnswer = 'json')  <br>
+    dataTypeAnswer: 'json', 'text' 'blob' <br>
+
+    .post(url, dataTypeAnswer = 'json')  <br>
+    dataTypeAnswer: 'json', 'text' 'blob' <br>
+
+
+
 ### Effects
 
 <b>.fadeIn(time)</b> - animation <b>show</b> element <br>
