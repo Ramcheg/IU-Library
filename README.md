@@ -37,12 +37,10 @@
 
 ### GET and POST request
     $().get(...);
+    .get(url, dataTypeAnswer = 'json')
+    .post(url, dataTypeAnswer = 'json')
 
-    .get(url, dataTypeAnswer = 'json')  <br>
-    dataTypeAnswer: 'json', 'text' 'blob' <br>
-
-    .post(url, dataTypeAnswer = 'json')  <br>
-    dataTypeAnswer: 'json', 'text' 'blob' <br>
+dataTypeAnswer: 'json', 'text' 'blob' <br>
 
 
 
