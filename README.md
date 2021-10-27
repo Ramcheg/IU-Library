@@ -294,3 +294,58 @@ $('#trigger').click(() => $('#trigger').createModal({
 ```
 
 
+#### Accordion
+<b> .accordion(headActive = 'accordion-head--active', contentActive = 'accordion-content--active', paddings = 40) its default</b>
+*Exapmle* (html) <br>
+
+```
+    <div class="accordion mt-20 block-center">
+        <div class="accordion-head">
+            <span>Callpse first element</span>
+        </div>
+        <div class="accordion-content">
+            <div class="accordion-inner">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta ab,
+                repellendus esse vel quidem dolor ut eum illo odit quis vero nostrum, minus sed fugiat atque nihil
+                voluptates. Dolorum, recusandae! </div>
+        </div>
+    </div>
+
+```
+
+#### Slider
+
+*Exapmle* (html) <br>
+```
+ <div class="carousel" id="example">
+
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0"></li>
+                <li data-slide-to="1"></li>
+                <li data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-slides">
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1544465544-1b71aee9dfa3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBob3RvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                            alt="img">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://content3.jdmagicbox.com/comp/sangli/m9/9999px233.x233.121023103024.i8m9/catalogue/natural-photo-studio-pragati-colony-sangli-photo-studios-elm6ffa0qn.jpg"
+                            alt="img">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/81a-YpktMHL.png" alt="img">
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="carousel-prev" data-slide="prev">
+                <span class="carousel-prev-icon">&lt;</span>
+            </a>
+            <a href="#" class="carousel-next" data-slide="next">
+                <span class="carousel-next-icon">&gt;</span>
+            </a>
+
+        </div>
+```
+
+
